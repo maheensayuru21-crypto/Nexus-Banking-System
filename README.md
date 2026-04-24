@@ -19,3 +19,44 @@ A console-based banking system built with core Java, focusing on **Object-Orient
 - **Separation of Concerns:** Split logic into Model (`Account`), Controller (`BankingApp`), and Data Access (`FileHandler`).
 - **Encapsulation:** Used private fields and public getters to protect sensitive financial data.
 - **Defensive Programming:** Implemented `try-catch` blocks to handle malformed user input.
+
+
+
+## 🖥️ Project Demo
+
+Below is an example of a typical user session, from registration to performing a transaction.
+
+### 1. Registration
+===== MAIN MENU =====
+1. Login to Existing Account
+2. Register New Account
+3. Exit
+Choice: 2
+
+Enter Account Holder Name: Jon Johns
+Enter Initial Deposit: 1000
+
+SUCCESS! Account created.
+Your Account Number is: 5482
+
+
+### 2. Login and transaction
+===== MAIN MENU =====
+1. Login to Existing Account
+2. Register New Account
+3. Exit
+Choice: 1
+
+Enter Account Number: 5482
+Login Successful! Welcome, Jon Johns!
+
+--- Dashboard (5482) ---
+1. View Balance
+2. Deposit
+3. Withdraw
+4. Logout
+Choice: 3
+
+Enter withdrawal amount: 250
+Withdrawn: $250.0
+Transaction saved to ledger.
