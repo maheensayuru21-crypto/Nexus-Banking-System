@@ -28,3 +28,14 @@ CREATE TABLE accounts (
     balance DECIMAL(15, 2) DEFAULT 0.0
 );
 
+
+
+## ⚙️ Setup & Installation
+1. Clone the repository: `git clone [Your-Repo-Link]`
+2. Create the MySQL database using the schema provided above.
+3. Update the `DB_URL`, `USER`, and `PASS` in `DatabaseHandler.java`.
+4. Build and Run:
+   - Using VS Code: Click the **Run** icon on `BankingApp.java`.
+   - Using Maven: `mvn compile exec:java -Dexec.mainClass="BankingApp"`
+
+   
