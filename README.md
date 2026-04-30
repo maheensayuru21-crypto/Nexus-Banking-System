@@ -27,7 +27,12 @@ CREATE TABLE accounts (
     account_holder VARCHAR(100) NOT NULL,
     balance DECIMAL(15, 2) DEFAULT 0.0
 );
+```
 
+## 🔗 The Nexus Ecosystem
+This banking system is no longer just a standalone application—it acts as the foundational data layer for a microservice architecture. 
+
+It is currently integrated with the **[Nexus Chat Server](https://github.com/maheensayuru21-crypto/Nexus-Chat-Server.git)**, allowing users to securely query their database balances (`/balance`) and execute live, multi-threaded SQL transactions (`/transfer`) directly through a TCP/IP terminal chat interface.
 
 
 ## ⚙️ Setup & Installation
