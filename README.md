@@ -38,7 +38,7 @@ It is currently integrated with the **[Nexus Chat Server](https://github.com/mah
 ## ⚙️ Setup & Installation
 1. Clone the repository: `git clone [Your-Repo-Link]`
 2. Create the MySQL database using the schema provided above.
-3. Update the `DB_URL`, `USER`, and `PASS` in `DatabaseHandler.java`.
+3. Update the `DB_URL`, `USER`, and `PASS` in `DatabaseManager.java`.
 4. Build and Run:
    - Using VS Code: Click the **Run** icon on `BankingApp.java`.
    - Using Maven: `mvn compile exec:java -Dexec.mainClass="BankingApp"`
